@@ -4,7 +4,7 @@ let usedReasons = []
 $(document).ready(() => {
 
     $.get("./reasons-api/", (data) => {
-        reasons = data.split("\r\n")
+        reasons = data.split("\n")
     })
 })
 
