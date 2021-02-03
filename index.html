@@ -1,0 +1,53 @@
+<header>
+    <title>
+        Valentine's Day 2021
+    </title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #content{
+            text-align: center;
+            margin-top: 36vh;
+        }
+
+        #reasonButton {
+            background-color: white;
+            border: none;
+            margin: 5%;
+            padding: 2vh 3vw;
+            border-radius: 3%;
+            border-style: solid;
+            border-color: black;
+        }
+
+        #reason {
+            color: #2c2c2c;
+        }
+           
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</header>
+
+<body>
+    <div id="content">
+        <h1>
+            I love you
+        </h1>
+        <h4 id="reason"> </h4>
+
+        <div id="buttonBorder">
+            <button onclick="newReason()" id="reasonButton">Give me a reason!</button>
+        </div>
+    </div>
+
+    <script src="./scripts/index.js"></script>
+</body>
