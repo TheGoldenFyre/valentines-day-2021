@@ -14,4 +14,4 @@ app.get("/reasons-api/", (req, res) => {
     res.send(fs.readFileSync(path.resolve("reasons")));
 })
 
-app.listen(80, () => console.log("Started running on port 80"))
+app.listen(8000, () => console.log("Started running on port 8000"))
