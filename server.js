@@ -8,6 +8,7 @@ app.use(express.static("public"))
 
 app.get("/", (req, res) => {
     res.sendFile(path.resolve("./index.html"))
+    console.log(new Date().toLocaleString(), "Someone's looking again...")
 })
 
 app.get("/reasons-api/", (req, res) => {
